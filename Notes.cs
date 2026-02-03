@@ -1,0 +1,27 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Notes : MonoBehaviour
+{
+    float NoteSpeed = 5;
+    bool start;
+    // Update is called once per frame
+    void Start()
+    {
+        NoteSpeed = GManager.instance.noteSpeed;
+    }
+
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            start = true;
+        }
+        if(start)
+        {
+            transform.position -= transform.forward * Time.deltaTime * NoteSpeed;
+        }
+
+    }
+}
