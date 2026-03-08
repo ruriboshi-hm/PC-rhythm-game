@@ -1,2 +1,16 @@
-# PC-rhythm-game
-This is a rhythm game that can be played on PC and was created using Unity/C#.
+# PC用リズムゲーム
+
+### 概要
+キーボード操作で遊べるPC用リズムゲーム
+
+### 開発環境/技術選定理由
+* Unity：3Dゲームの制作に適しているため選択
+* C#：Unityを使うため実質1択
+
+### 機能
+* 選曲画面：キーボードの上下キーで選曲できます。ENTERキーを押すと、曲が確定されてゲーム画面に遷移するようにしました。
+* ゲーム画面：キーボードのD, F, J, Kを使ってリズムゲームで遊べます。キーが押されたタイミングからPerfect, Great, Good, Missの判定します。
+* 結果画面：リズムゲームの結果を確認できます。ENTERキーを押すと選曲画面へ遷移、Spaceキーを押すと同じ曲でもう一度遊べるようにしました。
+
+### 参考動画
+https://youtu.be/WWeyn4TI0lI?si=ctPFLBAqT0DF_nDS
