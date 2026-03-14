@@ -1,5 +1,7 @@
 # PC用リズムゲーム
 
+<img width="1280" height="719" alt="Image" src="https://github.com/user-attachments/assets/b8122c08-3152-49cc-973f-c9ad7ea62035" />
+
 ### 概要
 キーボード操作で遊べるPC用リズムゲーム
 
